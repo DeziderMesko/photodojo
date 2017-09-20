@@ -3,8 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://photodojo.cz/katas/izolace/</loc>
+    <lastmod>2017-09-20T20:31:18+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://photodojo.cz/vize/</loc>
     <lastmod>2017-09-20T20:31:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://photodojo.cz/uvod/</loc>
+    <lastmod>2017-09-20T20:31:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://photodojo.cz/katas/bw/</loc>
+    <lastmod>2017-09-20T20:31:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://photodojo.cz/katas/</loc>
+    <lastmod>2017-09-20T20:31:18+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
