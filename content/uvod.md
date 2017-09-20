@@ -26,7 +26,7 @@ Ekvivalent technik popsaných výše, lze pak ve fotografii realizovat následov
     * Příklad: možnosti izolace subjektu od pozadí 
 2. První kolo procvičování techniky řešení (asi 30 minut)
     * Příklad: využití rozdílné barvy popředí a pozadí
-3. Zhodnocení výsledků ve dvojicích (asi 15 minut)
+3. Zhodnocení výsledků (asi 15 minut)
     * Příklad: dvojice si navzájem řekne co se podařilo, co se nepodařilo, nečekané výsledky, atp.
 4. Představení další techniky pro řešení problému (asi 15 minut)
     * Příklad: využití narušení opakujícího vzoru pozadí subjektem
