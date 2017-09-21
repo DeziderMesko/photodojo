@@ -4,6 +4,13 @@
             <div class="col-xs-12"><h1>Photo Katas</h1></div>
         </div>
         <div class="row">
+                <div class="col-xs-12 middle-xs">
+                    {{ with $.Site.GetPage "page" "katas.md" }}
+                        {{ .Content }}
+                    {{ end }}
+                </div>
+        </div>
+        <div class="row">
             <div class="col-xs-12 posts-list">
                 {{ range first 5 (where .Data.Pages "Section" "katas") }}
                     <article>

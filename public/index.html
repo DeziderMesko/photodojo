@@ -64,7 +64,12 @@
     }
     .uvod p {
       font-size: 1.2rem;
+      text-align: justify;
 
+    }
+    .uvod, .container {
+        max-width: 45.750rem;
+        margin: auto;
     }
     .about {
         padding-top: 0rem;
@@ -73,12 +78,15 @@
     .uvod {
         background-color: #ffffff;
     }
+    .akce {
+        background-color: #ffffff;
+    }
 
     .blog {
         background-color: #F7F7F7;
     }
     .contact {
-        background-color: #ffffff;
+        background-color: #F7F7F7;
     }
     li ul li {
         list-style-type: none;
@@ -91,6 +99,36 @@
     input, textarea {
     border-color: #757575;
     }
+
+
+blockquote {
+  padding: 2em 0 0.5em 0;
+  max-width: 30rem;
+  quotes: "\201E""\201D""\00BB""\00AB";
+  margin: auto;
+}
+blockquote:before {
+  color: #ccc;
+  content: "\201E";
+  font-size: 2em;
+  line-height: 0.1em;
+  vertical-align: -0em;
+}
+blockquote:after {
+  content: "\201D";
+  color: #ccc;
+  font-size: 2em;
+  line-height: 0.1em;
+  vertical-align: -0.3em;
+  
+}
+blockquote p {
+  display: inline;
+}
+
+.about a {
+    background-position: 0 100%;
+}
 
 </style>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css">
@@ -120,7 +158,7 @@
             
             <div class="col-xs-3 col-sm-2"><h3><a href="https://photodojo.cz/#vize">Vize</a></h3></div>
             
-            <div class="col-xs-3 col-sm-2"><h3><a href="https://photodojo.cz/#uvod">Úvod</a></h3></div>
+            <div class="col-xs-3 col-sm-2"><h3><a href="https://photodojo.cz/#uvod">O Dojo</a></h3></div>
             
             <div class="col-xs-3 col-sm-2"><h3><a href="https://photodojo.cz/#katas">Katas</a></h3></div>
             
@@ -138,7 +176,7 @@
                     
                     <div class="col-xs-12"><h1><a href="https://photodojo.cz/#vize">Vize</a></h1></div>
                     
-                    <div class="col-xs-12"><h1><a href="https://photodojo.cz/#uvod">Úvod</a></h1></div>
+                    <div class="col-xs-12"><h1><a href="https://photodojo.cz/#uvod">O Dojo</a></h1></div>
                     
                     <div class="col-xs-12"><h1><a href="https://photodojo.cz/#katas">Katas</a></h1></div>
                     
@@ -162,7 +200,7 @@
         <div class="row">
             <div class="col-xs-12 middle-xs vize">
                 
-                    <p><em>Kdokoli kdo se chce zlepšit ve fotografování ví,</em><br/><em>jak to jednoduše a efektivně udělat.</em></p>
+                    <p><em>Kdokoli, kdo se chce zlepšit ve fotografování ví,</em><br/><em>jak to jednoduše a efektivně udělat.</em></p>
 
                 
             </div>
@@ -177,12 +215,28 @@
 <section class="about uvod" id="uvod">
     <div class="container middle-xs">
         <div class="row center-xs">
-            <div class="col-xs-12"><h1>Úvod</h1></div>
+            <div class="col-xs-12"><h1>O PhotoDojo</h1></div>
         </div>
         <div class="row">
             <div class="col-xs-12 middle-xs uvod">
                 
-                    <p>Celý koncept PhotoDojo stojí na obecně známých principech cílevědomého tréninku. (Deliberate practice)</p>
+                    
+
+<blockquote>
+<p><strong>Dojo:</strong>
+místnost nebo hala, kde se procvičuje Judo,
+nebo jiné bojové umění</p>
+</blockquote>
+
+<h3 id="o-co-jde">O co jde?</h3>
+
+<p>Za vytvořením dobré fotky většinou stojí složitý myšlenkový proces. Fotograf při něm musí myslet na mnoho aspektů a pokud možno žádný neopomenout. Při PhotoDojo si vybereme jen jediný krok, a ten procvičíme － zautomatizujeme. <strong>Krok po kroku, se z nás stane lepší fotograf.</strong></p>
+
+<p>Při „ostrém&rdquo; focení je pak jednoduché oprostit se od detailů a soustředit se na to na čem záleží nejvíce － souvislosti, vystižení správného momentu, atmosféru&hellip;</p>
+
+<h3 id="kde-se-photodojo-vzalo">Kde se PhotoDojo vzalo?</h3>
+
+<p>Celý koncept PhotoDojo stojí na obecně známých principech cílevědomého tréninku (deliberate practice, <a href="https://www.dobre-knihy.cz/talent-se-precenuje-239785.html">1</a>, <a href="http://jamesclear.com/deliberate-practice-theory">2</a>), který provozují ti nejlepší z nejlepších v jakémkoli oboru.</p>
 
 <p>Znaky cílevědomého tréninku:</p>
 
@@ -196,14 +250,16 @@
 
 <p>Ve světe informačních technologií － programátorů, je cílevědomý trénink populární ve formě Coding Dojos (1-2h dlouhé cvičení) nebo Code Retreats (celodenní workshop).</p>
 
-<p>V připadě Coding Dojo, si skupina zvolí na začátku sezení problém (Kata) a poté se ho snaží vyřešit. Cílem ovšem není vyřešení problému (co), ale korektní způsob řešení problému (jak).</p>
+<p>V připadě <a href="http://codingdojo.org">Coding Dojo</a>, si skupina zvolí na začátku sezení problém (Kata) a poté se ho snaží vyřešit. Cílem ovšem není vyřešení problému (co), ale korektní způsob řešení problému (jak).</p>
 
-<p>V případě Code Retreats, se na začátku dne zvolí problém a poté se programátoři v jeho průběhu snaží problém řešit různými způsoby. Jedná se vlastně o sérii Coding Dojos s různými omezeními, které vedou na různé způsoby řešení problému.</p>
+<p>V případě <a href="https://coderetreat.cz">Code Retreats</a>, se na začátku dne zvolí problém a poté se programátoři v jeho průběhu snaží problém řešit různými způsoby. Jedná se vlastně o sérii Coding Dojos s různými omezeními, které vedou na různé způsoby řešení problému.</p>
 
-<p>Ekvivalent technik popsaných výše, lze pak ve fotografii realizovat následovně:</p>
+<h3 id="jak-to-teda-vypadá-v-praxi">Jak to teda vypadá v praxi?</h3>
+
+<p>Ekvivalent technik popsaných výše, lze ve fotografii realizovat následovně:</p>
 
 <ol>
-<li>Zvolení problému － fotografické techniky k procvičení. Rychlý úvod do problému. (30 minut)
+<li>Zvolení problému (Katy) － fotografické techniky k procvičení. Rychlý úvod do problému. (30 minut)
 
 <ul>
 <li>Příklad: možnosti izolace subjektu od pozadí</li>
@@ -211,7 +267,7 @@
 <li>První kolo procvičování techniky řešení (asi 30 minut)
 
 <ul>
-<li>Příklad: využití rozdílné barvy popředí a pozadí</li>
+<li>Příklad: využití rozdílné barvy pro izolaci subjektu od pozadí</li>
 </ul></li>
 <li>Zhodnocení výsledků (asi 15 minut)
 
@@ -221,7 +277,7 @@
 <li>Představení další techniky pro řešení problému (asi 15 minut)
 
 <ul>
-<li>Příklad: využití narušení opakujícího vzoru pozadí subjektem</li>
+<li>Příklad: použití opakujícího se vzoru pozadí pro izolaci subjektu</li>
 <li>……opakování bodů 2, 3 a 4……&hellip;</li>
 </ul></li>
 <li>Zhodnocení sezení, zpětná vazba od účastníků, diskuze, networking</li>
@@ -239,6 +295,16 @@
     <div class="container">
         <div class="row center-xs">
             <div class="col-xs-12"><h1>Photo Katas</h1></div>
+        </div>
+        <div class="row">
+                <div class="col-xs-12 middle-xs">
+                    
+                        <blockquote>
+<p><strong>Kata:</strong> soubor kombinací pozic a pohybů prováděných jako cvičení</p>
+</blockquote>
+
+                    
+                </div>
         </div>
         <div class="row">
             <div class="col-xs-12 posts-list">
@@ -285,6 +351,26 @@
         </div>
     </div>
 </section>
+
+
+
+
+<section class="about akce" id="akce">
+    <div class="container middle-xs">
+        <div class="row center-xs">
+            <div class="col-xs-12"><h1>Akce</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 middle-xs akce">
+                
+                    <p>Sleduj naše akce na Facebooku. V případě, že Facebook nepoužíváš, podívej se tam na termíny a dej nám vědet že přijdeš, přes kontakty.</p>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="contact" id="contact">
     <div class="container">

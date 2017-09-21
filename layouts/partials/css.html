@@ -4,7 +4,12 @@
     }
     .uvod p {
       font-size: 1.2rem;
+      text-align: justify;
 
+    }
+    .uvod, .container {
+        max-width: 45.750rem;
+        margin: auto;
     }
     .about {
         padding-top: 0rem;
@@ -13,12 +18,15 @@
     .uvod {
         background-color: #ffffff;
     }
+    .akce {
+        background-color: #ffffff;
+    }
 
     .blog {
         background-color: #F7F7F7;
     }
     .contact {
-        background-color: #ffffff;
+        background-color: #F7F7F7;
     }
     li ul li {
         list-style-type: none;
@@ -31,5 +39,35 @@
     input, textarea {
     border-color: #757575;
     }
+
+
+blockquote {
+  padding: 2em 0 0.5em 0;
+  max-width: 30rem;
+  quotes: "\201E""\201D""\00BB""\00AB";
+  margin: auto;
+}
+blockquote:before {
+  color: #ccc;
+  content: "\201E";
+  font-size: 2em;
+  line-height: 0.1em;
+  vertical-align: -0em;
+}
+blockquote:after {
+  content: "\201D";
+  color: #ccc;
+  font-size: 2em;
+  line-height: 0.1em;
+  vertical-align: -0.3em;
+  
+}
+blockquote p {
+  display: inline;
+}
+
+.about a {
+    background-position: 0 100%;
+}
 
 </style>
