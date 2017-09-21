@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 [Params]
     tagline = "PhotoDojo.cz"
     author = "Dežo Meško"
-    description = "Photo Dojo - buď sám svojím trenérem"
+    description = "PhotoDojo - buď sám svojím trenérem"
     logoBig = "/images/dojo.jpg"
     # logoSmall = "/images/osprey-logo.png"
     favicon = "favicon.ico"
