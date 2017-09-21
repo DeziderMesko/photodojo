@@ -5,7 +5,7 @@ tags = ["photography", "deliberate practice", "dojo"]
 config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
-googleAnalytics = ""
+googleAnalytics = "UA-106830922-1"
 # disqusShortname = "tomanistor"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
