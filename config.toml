@@ -1,4 +1,4 @@
-baseURL = "http://photodojo.cz/"
+baseURL = "https://photodojo.cz/"
 languageCode = "en-us"
 title = "PhotoDojo.cz"
 tags = ["photography", "deliberate practice", "dojo"]
